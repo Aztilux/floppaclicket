@@ -12,7 +12,6 @@ function floppers(amount) {
 }
 
 function fishebuy() {
-	debugger;
 	if (floppas >= fishecost) {
 		floppas = floppas - fishecost;
 		fishenumber = fishenumber + 1; 
@@ -25,7 +24,6 @@ function fishebuy() {
 }
 
 function flopperbuy() {
-	debugger;
 	if (floppas >= floppercost) {
 		floppas = floppas - floppercost;
 		floppernumber = floppernumber + 1; 
@@ -38,7 +36,6 @@ function flopperbuy() {
 }
 
 function chikenmbuy() {
-	debugger;
 	if (floppas >= chikenmcost) {
 		floppas = floppas - chikenmcost;
 		chikenmnumber = chikenmnumber + 1; 
